@@ -37,13 +37,12 @@ The portfolio highlights:
 
 ```text
 .
-├── assets/
-│   ├── favicon.svg
-│   └── yong-jun-mun.jpg
+├── favicon.svg
 ├── index.html
+├── README.md
 ├── script.js
 ├── style.css
-└── README.md
+└── yong-jun-mun.jpg
 ```
 
 ## Run locally
@@ -73,7 +72,7 @@ For the `YongJunMun_Resume` repository, the project-site URL is:
 - Edit page content and links in `index.html`.
 - Adjust colors, spacing, breakpoints, and visual components in `style.css`.
 - Update navigation behavior in `script.js`.
-- Replace `assets/yong-jun-mun.jpg` while keeping the same filename, or update its path and dimensions in `index.html`.
+- Replace `yong-jun-mun.jpg` while keeping the same filename, or update its path and dimensions in `index.html`.
 - If you later offer a downloadable resume, add the PDF to the repository only after reviewing every detail for public release.
 
 ## Pre-publish checklist
