@@ -1,434 +1,481 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Yong Jun Mun | Mechatronics Systems Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfolio of Yong Jun Mun, a Mechatronics Systems undergraduate and Automation Engineer Intern focused on factory automation, test engineering, and data tools."
+    >
+    <meta name="theme-color" content="#10252f">
+    <title>Yong Jun Mun | Automation & Mechatronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    >
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-brand"> <button class="nav-tab is-active" type="button" data-section="home" aria-pressed="true">
-          <i class="fas fa-home"></i><span> Home</span>
-        </button></div>
-      <div class="navbar-menu">
-        <button class="nav-tab" type="button" data-section="skills" aria-pressed="false">
-          <i class="fas fa-tools"></i><span> Skills</span>
-        </button>
-        <button class="nav-tab" type="button" data-section="experience" aria-pressed="false">
-          <i class="fas fa-briefcase"></i><span> Experience</span>
-        </button>
-        <button class="nav-tab" type="button" data-section="projects" aria-pressed="false">
-          <i class="fas fa-project-diagram"></i><span> Projects</span>
-        </button>
-        <button class="nav-tab" type="button" data-section="education" aria-pressed="false">
-          <i class="fas fa-graduation-cap"></i><span> Education</span>
-        </button>
-        <button class="nav-tab" type="button" data-section="honors" aria-pressed="false">
-          <i class="fas fa-award"></i><span> Honors</span>
-        </button>
-        <button class="nav-tab" type="button" data-section="certifications" aria-pressed="false">
-          <i class="fas fa-certificate"></i><span> Certifications</span>
-        </button>
-      </div>
-    </nav>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <main class="page">
-      <div class="content-wrapper">
-        <section class="page-section" data-page="home">
-          <header class="hero">
-            <div class="hero-text">
-              <p class="eyebrow">Resume</p>
-              <h1>Yong Jun Mun</h1>
-              <p class="title">Bachelors Of Mechatronics Systems</p>
-              <p class="summary">
-                Mechatronics Systems Engineer looking for a full-time role.
-              </p>
-                Passionate about engineering with a strong foundation in mechanical systems and
-                programming. Experienced in quality assurance work during an internship at Shimano,
-                applying new hardening techniques to validate mechanical gears.
-              </p>
-            </div>
-            <div class="hero-meta">
-              <div class="contact">
-                <a href="mailto:junmun234@gmail.com"><i class="fas fa-envelope"></i> junmun234@gmail.com</a>
-                <span><i class="fas fa-phone"></i> +65 8853 8270</span>
-                <a href="https://github.com/yongjunmun" target="_blank" rel="noreferrer">
-                  <i class="fab fa-github"></i> github.com/yongjunmun
-                </a>
-                <a href="https://www.linkedin.com/in/yong-jun-mun/" target="_blank" rel="noreferrer">
-                  <i class="fab fa-linkedin"></i> linkedin.com/in/yong-jun-mun
-                </a>
-              </div>
-            </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Yong Jun Mun, home">
+        <span class="brand-mark" aria-hidden="true">YJ</span>
+        <span class="brand-name">Yong Jun Mun</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="YongJunMun_Resume.pdf" download>Download resume</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-status">
+            <span aria-hidden="true"></span>
+            Automation Engineer Intern at Infineon Technologies
+          </p>
+          <h1 id="hero-title">
+            Building reliable automation
+            <strong>from the production floor up.</strong>
+          </h1>
+          <p class="hero-summary">
+            I am a Mechatronics Systems undergraduate working across factory automation,
+            test engineering, equipment recovery, and data tools. I turn unfamiliar systems
+            into verified procedures, useful dashboards, and safer production workflows.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">Explore my work</a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/yongjunmun"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View GitHub
+            </a>
+          </div>
+          <p class="hero-proof">
+            Recent work includes 50+ UAT cases, three equipment OJTIs, live OHV analytics,
+            and production support for AMHS, ASRS, AMR/AGV, and packing systems.
+          </p>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="profile-photo"
+            src="assets/yong-jun-mun.jpg"
+            alt="Yong Jun Mun standing by the coast"
+            width="360"
+            height="540"
+          >
+        </div>
+      </section>
+
+      <section class="systems-scope" aria-labelledby="systems-title">
+        <div class="section-shell systems-layout">
+          <h2 id="systems-title">Systems I support</h2>
+          <ul>
+            <li>AMHS</li>
+            <li>ASRS</li>
+            <li>AMR / AGV</li>
+            <li>OHT / OHV</li>
+            <li>Stocker</li>
+            <li>Feeder table</li>
+            <li>Digital packing line</li>
+            <li>Strapping systems</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-block experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-shell">
+          <header class="section-heading">
+            <h2 id="experience-title">Experience that moves systems into production</h2>
+            <p>
+              My work combines first-response equipment support with structured verification,
+              vendor coordination, documentation, and data automation.
+            </p>
           </header>
-        </section>
 
-        <section class="page-section" data-page="skills">
-          <div class="section" data-section="skills">
-            <div class="section-header">
-              <h2>Skills</h2>
-              <p class="section-note">Focused on systems engineering, controls, and automation.</p>
+          <article class="featured-experience">
+            <div class="experience-identity">
+              <p class="experience-date">Sep 2025 - Aug 2026</p>
+              <h3>Automation Engineer Intern</h3>
+              <p>Infineon Technologies Asia Pacific Pte Ltd</p>
+              <a
+                class="text-link"
+                href="https://www.infineon.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Semiconductor manufacturing
+                <span aria-hidden="true">&nearr;</span>
+              </a>
             </div>
-            <div class="section-body">
-              <ul class="pill-list">
-                <li><i class="fas fa-cube"></i> SolidWorks</li>
-                <li><i class="fas fa-drafting-compass"></i> Computer-Aided Design (CAD)</li>
-                <li><i class="fas fa-microchip"></i> Real-Time Operating Systems (RTOS)</li>
-                <li><i class="devicon-c-plain"></i> C</li>
-                <li><i class="devicon-cplusplus-plain"></i> C++</li>
-                <li><i class="devicon-python-plain"></i> Python</li>
-                <li><i class="devicon-opencv-plain"></i> OpenCV</li>
-                <li><i class="fas fa-robot"></i> ROS</li>
-                <li><i class="fas fa-chart-bar"></i> Tableau</li>
-                <li><i class="fas fa-memory"></i> ARM Assembly</li>
-                <li><i class="devicon-arduino-plain"></i> Arduino</li>
-                <li><i class="fas fa-industry"></i> KUKA</li>
-                <li><i class="fas fa-network-wired"></i> CCNA</li>
-                <li><i class="fas fa-file-word"></i> Microsoft Office</li>
-                <li><i class="fab fa-microsoft"></i> Microsoft 365</li>
-              </ul>
+
+            <div class="workstreams">
+              <section class="workstream">
+                <h4>Recover and maintain</h4>
+                <p>
+                  Work with automation technicians and vendors to diagnose alarms, clear jams,
+                  perform critical checks, and recover AMR, ASRS, AMHS, OHT/OHV, stocker,
+                  strapping, packing, and handler equipment. Support system/server recovery,
+                  software roll-outs, and OS/antivirus patching with engineers. Used a multimeter
+                  and hand tools to replace and realign a worn stopper within a 30-minute window.
+                </p>
+                <p class="workstream-tools">Fleet Manager · e-WareNavi · MCS · GT SoftGOT2000</p>
+              </section>
+
+              <section class="workstream">
+                <h4>Validate and launch</h4>
+                <p>
+                  Designed and executed more than 50 OHV UAT cases plus stocker, feeder-table,
+                  and Lights Out 2.0 integration and exception tests. Prepared FMEA evidence,
+                  reproduced faults, and retested vendor fixes before go-live. Feeder automation
+                  replaced manual Traystack loading.
+                </p>
+                <p class="workstream-tools">UAT · FMEA · exception testing · vendor coordination</p>
+              </section>
+
+              <section class="workstream">
+                <h4>Automate and analyse</h4>
+                <p>
+                  Built seven live Tableau OHV views for alarms and uptime against a 99% target,
+                  a feedback-driven Python issue tracker, and an Excel/PowerShell restock workflow
+                  with Outlook alerts covering 36 Priority 1 items. Used RCA and supplier follow-up
+                  to reduce digital packing line barcode misalignment.
+                </p>
+                <p class="workstream-tools">Python · PowerShell · Tableau · Excel · Outlook</p>
+              </section>
+
+              <section class="workstream">
+                <h4>Hand over safely</h4>
+                <p>
+                  Created three controlled 12-hour OJTIs from scratch for OHV, stocker, and
+                  feeder equipment, supported operator training, and tracked technician
+                  certification and refresher requirements.
+                </p>
+                <p class="workstream-tools">Technical writing · training · safety · competency checks</p>
+              </section>
+            </div>
+          </article>
+
+          <div class="earlier-experience" aria-label="Earlier experience">
+            <article>
+              <p class="experience-date">Mar 2020 - Aug 2020</p>
+              <h3>Process Development Engineer Intern</h3>
+              <p>
+                Validated a new steel source for heat-treated bicycle components using 30
+                samples across 10 furnace-tray locations. Performed Rockwell HRA/HRC and
+                Vickers case-depth testing, metallographic sample preparation, and Cpk,
+                t-test, and variance analysis; confirmed specifications with no process
+                changes required.
+              </p>
+            </article>
+            <article>
+              <p class="experience-date">May 2021 - May 2023</p>
+              <h3>Signals, Singapore Army</h3>
+              <p>
+                Completed full-time National Service in a Signals unit, building discipline,
+                operational readiness, and team coordination.
+              </p>
+            </article>
+            <article>
+              <p class="experience-date">Mar 2021 - May 2021</p>
+              <h3>Digital Ambassador, IMDA</h3>
+              <p>
+                Helped members of the public adopt digital services and understand safe,
+                confident use of everyday technology.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-shell">
+          <header class="section-heading">
+            <h2 id="projects-title">Selected engineering and software projects</h2>
+            <p>
+              Each project starts with a real workflow problem and ends with something people
+              can test, operate, or act on.
+            </p>
+          </header>
+
+          <div class="project-list">
+            <article class="project-row">
+              <div class="project-copy">
+                <p class="project-context">Infineon · Data automation</p>
+                <h3>Maintenance Issue Tracking Bot</h3>
+                <p>
+                  A Python workflow that converts informal WhatsApp machine-issue messages
+                  into structured Excel records. Feedback-driven filtering learns from reviewed
+                  false captures and reduces repeated cleanup.
+                </p>
+                <ul class="project-stack" aria-label="Technologies used">
+                  <li>Python</li>
+                  <li>Selenium</li>
+                  <li>Regular expressions</li>
+                  <li>Excel</li>
+                </ul>
+              </div>
+              <div class="project-diagram" aria-label="WhatsApp messages flow through Python processing into Excel records">
+                <span>Messages</span>
+                <i aria-hidden="true"></i>
+                <span>Python</span>
+                <i aria-hidden="true"></i>
+                <span>Excel</span>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div class="project-copy">
+                <p class="project-context">Infineon · Reliability analytics</p>
+                <h3>OHV Alarm and Uptime Dashboards</h3>
+                <p>
+                  Live Tableau views that surface recurring alarms, day/night patterns,
+                  uptime, unplanned downtime, and a 99% target across seven OHV views.
+                  Scheduled refreshes reduce manual reporting.
+                </p>
+                <ul class="project-stack" aria-label="Technologies used">
+                  <li>Tableau</li>
+                  <li>Calculated fields</li>
+                  <li>Live data</li>
+                  <li>Task Scheduler</li>
+                </ul>
+              </div>
+              <div class="project-chart" aria-hidden="true">
+                <span style="--bar: 78%"></span>
+                <span style="--bar: 92%"></span>
+                <span style="--bar: 66%"></span>
+                <span style="--bar: 86%"></span>
+                <span style="--bar: 96%"></span>
+                <b></b>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div class="project-copy">
+                <p class="project-context">Personal · Privacy-first tooling</p>
+                <h3>Job Apply Assistant</h3>
+                <p>
+                  A local Python application that aggregates job APIs, extracts skills from
+                  PDF and DOCX resumes, ranks entry-level roles, caches searches in SQLite,
+                  and tracks applications with CSV export.
+                </p>
+                <ul class="project-stack" aria-label="Technologies used">
+                  <li>Python</li>
+                  <li>SQLite</li>
+                  <li>REST APIs</li>
+                  <li>Manifest V3</li>
+                </ul>
+              </div>
+              <div class="project-terminal" aria-label="Example job matching output">
+                <code>
+                  <span>&gt; index resume</span>
+                  <span>&gt; search automation roles</span>
+                  <span class="terminal-success">match: 87 / 100</span>
+                  <span>status: ready to review</span>
+                </code>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div class="project-copy">
+                <p class="project-context">Personal · Browser AI</p>
+                <h3>Multi-Provider AI Chrome Assistant</h3>
+                <p>
+                  A Chrome side-panel assistant that reads the active webpage and supports
+                  eight AI providers, selectable models, streaming responses, and local
+                  API-key handling. The repository package excludes sensitive information.
+                </p>
+                <ul class="project-stack" aria-label="Technologies used">
+                  <li>JavaScript</li>
+                  <li>Chrome APIs</li>
+                  <li>Streaming</li>
+                  <li>Accessible UI</li>
+                </ul>
+              </div>
+              <div class="provider-orbit" aria-hidden="true">
+                <span class="orbit-core">AI</span>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+            </article>
+
+            <article class="project-row academic-project">
+              <div class="project-copy">
+                <p class="project-context">SIT · Systems engineering</p>
+                <h3>Autonomous Trolley Retrieval System</h3>
+                <p>
+                  Designed a custom gripper and integrated trolley detection, navigation,
+                  obstacle avoidance, and handle sanitisation on an autonomous mobile robot.
+                </p>
+                <ul class="project-stack" aria-label="Technologies used">
+                  <li>OpenCV</li>
+                  <li>Keil</li>
+                  <li>Segger</li>
+                  <li>Ultrasonic sensors</li>
+                </ul>
+              </div>
+              <div class="robot-route" aria-hidden="true">
+                <span></span>
+                <b></b>
+                <i></i>
+              </div>
+            </article>
+          </div>
+
+          <a
+            class="projects-link"
+            href="https://github.com/yongjunmun"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore all public work on GitHub
+            <span aria-hidden="true">&nearr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section-block skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-shell">
+          <header class="section-heading">
+            <h2 id="skills-title">A toolkit across mechanics, controls, and data</h2>
+            <p>
+              I am most effective when a problem crosses disciplinary boundaries and needs
+              both floor-level context and structured technical analysis.
+            </p>
+          </header>
+
+          <dl class="skill-matrix">
+            <div>
+              <dt>Automation systems</dt>
+              <dd>AMHS, ASRS, AMR/AGV, OHT/OHV, DPL, stocker, feeder, handler systems</dd>
+            </div>
+            <div>
+              <dt>Testing and reliability</dt>
+              <dd>UAT, FMEA, RCA, exception testing, test-case design, preventive maintenance</dd>
+            </div>
+            <div>
+              <dt>Software and data</dt>
+              <dd>Python, PowerShell, JavaScript, C/C++, SQLite, REST APIs, Tableau, Excel, Outlook automation, OpenCV</dd>
+            </div>
+            <div>
+              <dt>Embedded and design</dt>
+              <dd>SolidWorks, CAD, RTOS, Arduino, ARM Assembly, SPI, I2C, GPIO</dd>
+            </div>
+            <div>
+              <dt>Operations tooling</dt>
+              <dd>Fleet Manager, e-WareNavi, MCS, GT SoftGOT2000, Task Scheduler</dd>
+            </div>
+            <div>
+              <dt>Delivery and communication</dt>
+              <dd>Vendor coordination, OJTIs, operator training, technical handover, and verified Microsoft 365 Copilot workflows</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section-block education-section" id="education" aria-labelledby="education-title">
+        <div class="section-shell education-layout">
+          <div>
+            <header class="section-heading compact-heading">
+              <h2 id="education-title">Education</h2>
+            </header>
+            <div class="education-list">
+              <article>
+                <p class="experience-date">Expected Apr 2027</p>
+                <h3>BEng (Hons), Mechatronics Systems</h3>
+                <p>Singapore Institute of Technology</p>
+              </article>
+              <article>
+                <p class="experience-date">Apr 2021</p>
+                <h3>Diploma, Mechatronics and Robotics Engineering</h3>
+                <p>Singapore Polytechnic</p>
+              </article>
             </div>
           </div>
-        </section>
 
-        <section class="page-section" data-page="experience">
-          <div class="section" data-section="experience">
-            <div class="section-header">
-              <h2>Experience</h2>
-              <p class="section-note">Jobs and Experiences.</p>
-            </div>
-            <div class="section-body">
-               <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Automation Engineer (Intern)</h3>
-                    <p class="item-subtitle">Infineon Technologies Asia Pacific Pte Ltd</p>
-                  </div>
-                  <span class="item-date">Sep 2025 - Aug 2026</span>
-                </div>
-                <p style="font-size: 0.95rem; color: #a0a0a0; margin: 12px 0;">Part of the Operation Automation team under the guidance of an assigned mentor, assisting the Automation Engineer with automation equipment and upcoming projects.</p>
-                <ul style="margin-top: 8px;">
-                  <li><strong>Key Responsibilities:</strong> Assist in data analytics, design & development of future hardware; support factory automation equipment (AMR, Robotic, OHT, AMHS, Auto-packing Equipment); digitalize equipment operation data for performance monitoring; contribute to advanced automation projects in integration, testing, and system safety.</li>
-                  <li><strong>Day-to-Day Operations:</strong> Maintain equipment operations and create Tableau workflows for department performance tracking and visualization.</li>
-                  <li><strong>Learning Outcomes:</strong> Perform automation engineer tasks, support project assignments, gain overview of advanced factory automation, and contribute to Industry 4.0 manufacturing initiatives.</li>
-                </ul>
-              </article>
-
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Sales Associate (Part Time)</h3>
-                    <p class="item-subtitle">L'OCCITANE Group</p>
-                  </div>
-                  <span class="item-date">May 2023 - Aug 2023</span>
-                </div>
-                <ul>
-                  <li>Delivered premium, consultative customer service, recommending personalised skincare, body care, fragrance and gifting solutions.</li>
-                  <li>Supported store sales goals through product demonstrations, add-on recommendations and attentive service to improve customer experience.</li>
-                  <li>Managed POS transactions accurately (payments, exchanges/returns) and ensured smooth day-to-day store operations.</li>
-                  <li>Maintained brand standards through strong visual merchandising, tester hygiene, and stock replenishment.</li>
-                  <li>Supported inventory control (receiving, stock counts) and assisted with loyalty sign-ups to build repeat clientele.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Food Server (Part Time)</h3>
-                    <p class="item-subtitle">Jumbo Seafood Singapore</p>
-                  </div>
-                  <span class="item-date">May 2023 - Aug 2023</span>
-                </div>
-                <ul>
-                  <li>Part-time role.</li>
-                </ul>
-              </article>
-
-                  <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Signals</h3>
-                    <p class="item-subtitle">Singapore Army</p>
-                  </div>
-                  <span class="item-date">May 2021 - May 2023</span>
-                </div>
-                <ul>
-                  <li>Full-time national service role.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Digital Ambassador</h3>
-                    <p class="item-subtitle">IMDA</p>
-                  </div>
-                  <span class="item-date">Mar 2021 - May 2021</span>
-                </div>
-                <ul>
-                  <li>Served as a Digital Ambassador to support the nation's digital inclusion efforts by helping members of the public build confidence in using digital services and tools.</li>
-                  <li>Conducted 1:1 and small-group guidance sessions to onboard users to essential digital services (e.g., Singpass, LifeSG and other e-government services), ensuring successful setup and usage.</li>
-                  <li>Provided hands-on assistance with smartphone fundamentals, including device settings, connectivity (Wi‑Fi/mobile data), app installation, account creation, and basic troubleshooting.</li>
-                  <li>Guided seniors and less digitally confident users on safe online practices, including recognising scams, protecting personal data, and applying good cybernetwork practices.</li>
-                  <li>Delivered patient, customer-focused frontline support at community centers, explaining digital concepts in clear, simple terms tailored to varying ability levels.</li>
-                  <li>Supported community outreach and digital literacy activities, encouraging adoption of digital tools for everyday needs (communication, payments, bookings, and accessing services).</li>
-                  <li>Maintained professionalism and confidentiality when assisting with personal accounts and sensitive information.</li>
-                   <li>Worked collaboratively with team members and site leads to manage service flow, respond to queries efficiently, and ensure a positive experience for residents.</li>
-                </ul>
-              </article>
-
-                      <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Process Development Engineer (Intern)</h3>
-                    <p class="item-subtitle">Shimano (Singapore) Pte Ltd</p>
-                  </div>
-                  <span class="item-date">Mar 2020 - Aug 2020</span>
-                </div>
-                <ul>
-                  <li>Internship role focused on process development and quality assurance.</li>
-                  <li>Performed Quality Assurance inspections on components using precision measurement tools and equipment, including Vickers hardness testing.</li>
-                  <li>Prepared metallography samples by epoxy mounting, sectioning and surface preparation to support microstructure/defect evaluation.</li>
-                  <li>Recorded and analysed inspection results against specifications, maintaining accurate QA documentation and traceability.</li>
-                  <li>Supported non-conformance handling by segregating affected lots, documenting defects, and assisting with root-cause investigations and CAPA follow-up.</li>
-                  <li>Worked closely with production/engineering teams to address quality issues and ensure adherence to SOPs and controlled processes.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Washroom Cleaner (Part Time)</h3>
-                    <p class="item-subtitle">MENCK</p>
-                  </div>
-                  <span class="item-date">Mar 2019 - Aug 2019</span>
-                </div>
-                <ul>
-                  <li>Part-time role.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Food Server (Part Time)</h3>
-                    <p class="item-subtitle">Seafood Palace</p>
-                  </div>
-                  <span class="item-date">Mar 2016 - May 2016</span>
-                </div>
-                <ul>
-                  <li>Part-time role.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Food Preparation Worker (Part Time)</h3>
-                    <p class="item-subtitle">Neo Garden Catering</p>
-                  </div>
-                  <span class="item-date">Mar 2015 - May 2015</span>
-                </div>
-                <ul>
-                  <li>Part-time role.</li>
-                </ul>
-              </article>
-            </div>
+          <div>
+            <header class="section-heading compact-heading">
+              <h2>Credentials</h2>
+            </header>
+            <ul class="credentials-list">
+              <li>
+                <strong>Certified SOLIDWORKS CAD Design Associate</strong>
+                <span>Dassault Systemes · 2025</span>
+              </li>
+              <li>
+                <strong>Google Project Management Professional Certificate</strong>
+                <span>Google / Coursera · 2025</span>
+              </li>
+              <li>
+                <strong>Cisco Certified Network Associate</strong>
+                <span>Cisco · 2022</span>
+              </li>
+              <li>
+                <strong>bizSAFE Level 2</strong>
+                <span>Risk Management · 2020</span>
+              </li>
+              <li>
+                <strong>Director's List</strong>
+                <span>Institute of Technical Education</span>
+              </li>
+            </ul>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="page-section" data-page="projects">
-          <div class="section" data-section="projects">
-            <div class="section-header">
-              <h2>Projects</h2>
-              <p class="section-note">Project Showcase.</p>
-            </div>
-            <div class="section-body">
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Trolley Retrieval System</h3>
-                    <p class="item-subtitle">Systems Engineering Project</p>
-                  </div>
-                  <span class="item-date">2023 - 2025</span>
-                </div>
-                <ul>
-                  <li>Designed a custom gripper to secure, push, and tow trolleys using 3D modeling.</li>
-                  <li>Built a robotic arm to extend and sanitize trolley handles with wet wipes.</li>
-                  <li>Programmed autonomous navigation with trolley detection and obstacle avoidance.</li>
-                  <li>Integrated system control using Keil, Segger, ROS and OpenCV.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Tic-Tac-Toe</h3>
-                    <p class="item-subtitle">Embedded Systems Project</p>
-                  </div>
-                  <span class="item-date">2024</span>
-                </div>
-                <ul>
-                  <li>Implemented SPI LCD, I2C peripherals, GPIO buttons, LEDs, and a buzzer.</li>
-                  <li>Built a GUI for the grid, tokens, scores, and turn indicators.</li>
-                  <li>Added win/tie logic, turn tracking, and button debouncing.</li>
-                </ul>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Smart Bicycle</h3>
-                    <p class="item-subtitle">Final Year Project</p>
-                  </div>
-                  <span class="item-date">2020</span>
-                </div>
-                <ul>
-                  <li>Developed tailgate lights with dynamic indicators for safer night riding.</li>
-                  <li>Programmed a speedometer with Arduino for real-time speed and distance.</li>
-                  <li>Designed mounts in CAD and integrated electronics with sensors and wiring.</li>
-                  <li>Added a buzzer alert system for pedestrian and road-user safety.</li>
-                </ul>
-              </article>
-            </div>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell contact-layout">
+          <div>
+            <h2 id="contact-title">Interested in dependable automation?</h2>
+            <p>
+              I am always open to conversations about automation engineering, mechatronics,
+              test and validation, reliability, and practical data tools.
+            </p>
           </div>
-        </section>
-
-        <section class="page-section" data-page="education">
-          <div class="section" data-section="education">
-            <div class="section-header">
-              <h2>Education</h2>
-              <p class="section-note">Education History and Institutions.</p>
-            </div>
-            <div class="section-body">
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Mechatronics Systems</h3>
-                    <p class="item-subtitle">Singapore Institute of Technology, Singapore</p>
-                  </div>
-                  <span class="item-date">Aug 2023 - Apr 2027</span>
-                </div>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Mechatronics and Robotics Engineering</h3>
-                    <p class="item-subtitle">Singapore Polytechnic, Singapore</p>
-                  </div>
-                  <span class="item-date">Apr 2019 - Apr 2021</span>
-                </div>
-              </article>
-
-              <article class="item">
-                <div class="item-header">
-                  <div>
-                    <h3>Mechatronics Engineering</h3>
-                    <p class="item-subtitle">Institute of Technical Education, Singapore</p>
-                  </div>
-                  <span class="item-date">Feb 2017 - Mar 2019</span>
-                </div>
-              </article>
-            </div>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:junmun234@gmail.com">Email me</a>
+            <a
+              class="button button-outline-light"
+              href="https://www.linkedin.com/in/yong-jun-mun/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
           </div>
-        </section>
-
-        <section class="page-section" data-page="honors">
-          <div class="section" data-section="honors">
-            <div class="section-header">
-              <h2>Honors & Awards</h2>
-              <p class="section-note">Academic recognition and professional development.</p>
-            </div>
-            <div class="section-body">
-              <ul class="simple-list">
-                <li>Edusave Certification of Academic Achievement (SP)</li>
-                <li>Edusave Merit Bursary (SP)</li>
-                <li>Director's List (ITE)</li>
-                <li>The 7 Habits of Highly Effective Youths</li>
-                <li>Introduction to Robotics and Sensors Certified</li>
-                <li>Creative Drama Program Certification</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="page-section" data-page="certifications">
-          <div class="section" data-section="certifications">
-            <div class="section-header">
-              <h2>Certifications</h2>
-              <p class="section-note">Optional professional certifications.</p>
-            </div>
-            <div class="section-body">
-              <ul class="simple-list">
-                <li>Cisco Certified Network Associate</li>
-                <li>BizSAFE Level 2 (Risk Management) Course</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
-    <script>
-      const navTabs = document.querySelectorAll(".nav-tab");
-      const pageSections = document.querySelectorAll(".page-section");
-      const page = document.querySelector(".page");
+    <footer class="site-footer">
+      <div class="section-shell footer-layout">
+        <p>&copy; <span id="current-year">2026</span> Yong Jun Mun</p>
+        <p>Designed for clarity, built with plain HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
 
-      const setActiveNav = (sectionName) => {
-        navTabs.forEach((tab) => {
-          const isActive = tab.dataset.section === sectionName;
-          tab.classList.toggle("is-active", isActive);
-          tab.setAttribute("aria-pressed", isActive ? "true" : "false");
-        });
-      };
-
-      // Scroll to section on nav click with transition
-      navTabs.forEach((tab) => {
-        tab.addEventListener("click", () => {
-          const sectionName = tab.dataset.section;
-          const targetSection = document.querySelector(`[data-page="${sectionName}"]`);
-          
-          if (targetSection) {
-            // Add transition effect
-            page.classList.add("transitioning");
-            
-            setTimeout(() => {
-              targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
-              setActiveNav(sectionName);
-              page.classList.remove("transitioning");
-            }, 300);
-          }
-        });
-      });
-
-      // Update active nav on scroll
-      const updateActiveNavOnScroll = () => {
-        const scrollPosition = window.scrollY + 100;
-
-        pageSections.forEach((section) => {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.offsetHeight;
-          const sectionName = section.dataset.page;
-
-          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-            setActiveNav(sectionName);
-          }
-        });
-      };
-
-      window.addEventListener("scroll", updateActiveNavOnScroll);
-      updateActiveNavOnScroll();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
