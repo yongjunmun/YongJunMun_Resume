@@ -1165,6 +1165,21 @@ button {
     gap: 1.5rem;
   }
 
+  .project-row > * {
+    min-width: 0;
+  }
+
+  .project-diagram span {
+    min-width: 0;
+    flex: 1 1 0;
+    padding-inline: 0.35rem;
+  }
+
+  .project-diagram i {
+    flex: 0 1 1.5rem;
+    min-width: 0.75rem;
+  }
+
   .project-diagram,
   .project-chart,
   .project-terminal,
