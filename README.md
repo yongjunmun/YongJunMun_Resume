@@ -105,4 +105,3 @@ offered for reuse. Fork the code, not the biography.
 
 - [GitHub](https://github.com/yongjunmun)
 - [LinkedIn](https://www.linkedin.com/in/yong-jun-mun/)
-- [Email](mailto:junmun234@gmail.com)
